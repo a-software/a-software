@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="icon" href="/favicon.ico" />
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-is@18.3.1/umd/react-is.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/styled-components/dist/styled-components.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone@7.10.3/babel.min.js" crossorigin></script>
+  
+  <title>tupo game</title>
+</head>
+
+<body style="background-color: #a4ffb7; padding: 0">
+  <div id="app"></div>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <script type="text/babel" data-presets="react,stage-3" src="index.js"></script>
+  <script type="text/babel" data-presets="react,stage-3">
+    const root = ReactDOM.createRoot(document.getElementById("app"))
+    root.render(<Example />);
+  </script>
+</body>
+
+</html>
